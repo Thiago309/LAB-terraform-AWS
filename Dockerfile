@@ -15,6 +15,7 @@ RUN apt-get update && \
     curl \
     tree \
     gpg \
+    vim \
     ca-certificates && \
     rm -rf /var/lib/apt/lists/*
 
