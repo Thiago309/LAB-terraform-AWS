@@ -45,5 +45,8 @@ RUN mkdir -p -m 755 /etc/apt/keyrings && \
 # Criar a pasta /IaC-AWS dentro do container
 RUN mkdir /IaC-AWS
 
+# Definir o diretório de trabalho padrão
+WORKDIR /IaC-AWS
+
 # Definir o comando padrão para execução quando o container for iniciado
 CMD ["/bin/bash"]
