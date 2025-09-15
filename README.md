@@ -2,11 +2,11 @@
 Automatizando criação de serviços cloud AWS com terraform/docker. Neste exemplo criei 2 dos principais recursos utilizados
 na AWS, que são: Instâncias EC2's e S3 Bucket. 
 
-## Ferramentas utilizadas:
+### Ferramentas utilizadas:
 
-- Docker Desktop (Lastet version)
+- Docker Desktop (Latest version)
 - Terraform (1.13.2)
-- Linux Ubuntu (Lastet version)
+- Linux Ubuntu (Latest version)
 - AWS CLI
 - GitHub
 - wget
