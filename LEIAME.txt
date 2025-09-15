@@ -1,0 +1,10 @@
+# Instruções para o LAB-terraform-AWS
+
+1. Abra o terminal ou prompt de comando WLS2 e navegue até a pasta onde você colocou os arquivos do Lab2 (não use espaço ou acento em nome de pasta)
+cd "/mnt/c/Users/karer/OneDrive/Documentos/GitHub/LAB-terraform-AWS
+
+2. Execute o comando abaixo para criar a imagem Docker do projeto
+docker build -t LAB-terraform-AWS-image:AWS-ISO .
+
+3. Execute o comando abaixo para criar o container Docker
+docker run -dit --name LAB-AWS LAB-terraform-AWS-image:AWS-ISO /bin/bash
