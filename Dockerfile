@@ -7,8 +7,7 @@ LABEL maintainer="Thiago_Vinicius"
 # Definir a versão do Terraform ultima versão sem ser beta (evita bugs e erros)
 ENV TERRAFORM_VERSION=1.13.2
 
-# Atualizar os pacotes do sistema e instalar dependências necessarias
-# (wget, curl, unzip, tree para visualização, gpg para a chave do GitHub)
+# Atualizar os pacotes do sistema e instalar dependências necessarias (wget, curl, unzip, tree para visualização, gpg para a chave do GitHub)
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     wget \
