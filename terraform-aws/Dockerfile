@@ -45,6 +45,9 @@ RUN mkdir -p -m 755 /etc/apt/keyrings && \
 # Criar a pasta /IaC-AWS dentro do container
 RUN mkdir /IaC-AWS
 
+# Copiar os arquivos local para o diretorio de trabalho no contêiner
+COPY . /IaC-AWS/
+
 # Definir o diretório de trabalho padrão
 WORKDIR /IaC-AWS
 
